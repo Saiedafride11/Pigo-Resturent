@@ -1,0 +1,789 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1.h2,h3,h4,h5,h6,p{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	
+	text-decoration: none;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.container{
+	max-width: 1140px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.section-padding{
+	padding: 30px 0;
+}
+
+.section-padding-l{
+	padding: 30px 0 10px 0;
+}
+
+@font-face{
+	src: url(../fonts/montserrat/Montserrat-Regular.otf);
+	font-family: Montserrat-Regular;
+}
+
+@font-face{
+	src: url(../fonts/montserrat/Montserrat-Bold.otf);
+	font-family: Montserrat-Bold;
+}
+
+@font-face{
+	src: url(../fonts/proxima/Proxima\ Nova\ Bold.otf);
+	font-family:Proxima-Nova-Bold.otf;
+}
+
+@font-face{
+	src: url(../fonts/roboto/Roboto-Light.ttf);
+	font-family: Roboto-Light;
+}
+
+@font-face{
+	src: url(../fonts/montserrat/Montserrat-Medium.otf);
+	font-family: Montserrat-Medium.otf;
+}
+
+/* =============================================
+			  Start Heading Section                 
+================================================= */
+.header-section{
+	width: 100%;
+	padding: 20px 0px;
+	background: #21243d;
+}
+.header{
+	width: 100%;
+}
+.header .logo{
+	width: 20%;
+	float: left;
+}
+
+.header .logo img{
+	width: 70%;
+}
+
+.header .main-menu{
+	width: 70%;
+	float: left;
+}
+
+.header .main-menu ul{
+	text-align: right;
+}
+.header .main-menu ul li{
+	display: inline;
+}
+.header .main-menu ul li a{
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 22px;
+	font-family: Montserrat-Regular;
+	padding: 10px 20px;
+	display: inline-block;
+	color: #fff;
+
+}
+.header .main-menu ul li a:hover{
+	background: #fff;
+	color: #21243d;
+	border-radius: 15px;
+}
+.header .search-icon{
+	width: 10%;
+	float: left;
+	text-align: right;
+}
+
+.header .search-icon i{
+	color: #fff;
+	font-size: 20px;
+	padding-top: 13px;
+}
+/* =============================================
+			  Start Heading Section                 
+================================================= */
+
+
+/* =============================================
+			  Start banner Section                 
+================================================= */
+.banner-section{
+	width: 100%;
+	padding: 200px 0px;
+	background: url(../images/banner-bg.png) top no-repeat;
+	background-size: cover;
+}
+
+.banner-section .banner{
+	width: 100%;
+}
+
+.banner .banner-left{
+	width: 50%;
+	float: left;
+	margin-bottom: 30px;
+}
+
+.banner .banner-left h1{
+	font-size: 70px;
+	line-height: 90px;
+	font-weight: 700;
+	color: #fff;
+	text-align: left;
+	font-family: Montserrat-Bold;
+}
+.banner .banner-left p{	
+	color: #fff;
+	text-align: left;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.banner .banner-left .banner-btn{
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: 400;
+	font-family: Montserrat-Bold;
+	color: #fff;
+	background: #21243d;
+	padding: 10px 40px;
+	border-radius: 10px;
+}
+
+.banner .banner-left .banner-btn:hover{
+	background: #fff;
+	color: #21243d;
+}
+.banner .banner-right{
+	width: 50%;
+	float: left;
+}
+
+/* =============================================
+			  End banner Section                 
+================================================= */
+
+
+/* =============================================
+			  Start Popular Section                 
+================================================= */
+.popular-section{
+	width: 100%;
+	padding: 100px 0px;
+	background: url(../images/popular-bg.png) top no-repeat;
+	background-size: cover;
+}
+
+.popular-section .popular{
+	width: 100%;
+}
+
+.popular-section .popular h2{
+	font-size: 50px;
+	line-height: 70px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	font-family: Montserrat-Bold;
+	margin-top: 10px;
+}
+
+.popular-section .popular p{
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #fff;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.popular-section  .popular-innner{
+	width: 33.33%;
+	float: left;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.popular-section  .popular-innner img{
+	width: 30%;
+}
+.popular-section  .popular-innner h6{
+	font-size: 25px;
+	line-height: 40px;
+	font-weight: 700;
+	color: #fff;
+	font-family: Montserrat-Bold;
+	margin-top: 26px;
+}
+.popular-section  .popular-innner p{
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #fff;
+	margin-top: 2px;
+	margin-bottom: 30px;
+}
+/* =============================================
+			  End Popular Section                 
+================================================= */
+
+/* =============================================
+			  Start title Section                 
+================================================= */
+.title-section{
+	width: 100%;
+	padding: 200px 0px;
+	background: url(../images/title-bg.png) top no-repeat;
+	background-size: cover;
+}
+
+.title-section .title{
+	width: 100%;
+}
+
+.title .title-left{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.title .title-left img{
+	width: 50%;
+	margin-top: 20px;
+}
+
+.title .title-right{
+	width: 50%;
+	float: left;
+}
+
+
+.title .title-right h2{
+	font-size: 60px;
+	line-height: 70px;
+	font-weight: 700;
+	color: #21243d;
+	font-family: Montserrat-Bold;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.title .title-right p{	
+	color: #21243d;
+	text-align: left;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-left: 40px;
+}
+
+.title .title-right .title-btn{
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: 400;
+	font-family: Montserrat-Bold;
+	color: #fff;
+	background: #21243d;
+	padding: 10px 40px;
+	border-radius: 10px;
+	margin-left: 40px;
+}
+.title .title-right .title-btn:hover{
+	background: #fff;
+	color:#21243d ;
+}
+/* =============================================
+			  End title Section                 
+================================================= */
+
+
+/* =============================================
+			  Start staticts Section                 
+================================================= */
+.statistics-section{
+	width: 100%;
+	padding: 150px 0px;
+	background: url(../images/staticts-bg.png) top no-repeat;
+	background-size: cover;
+}
+
+.statistics-section .statistics{
+	width: 100%;
+}
+
+.statistics-section .statistics h2{
+	font-size: 60px;
+	line-height: 70px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	font-family: Montserrat-Bold;
+	margin-top: -50px;
+}
+
+.statistics-section .statistics p{
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #fff;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.statistics-section  .statistics-innner{
+	width: 33.33%;
+	float: left;
+	text-align: center;
+	margin-top: 40px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.statistics-section  .statistics-innner .statistics-extra{
+	width: 150px;
+	height: 150px;
+	border: 5px solid #fff;
+	background: #21243d;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.statistics-section  .statistics-innner .statistics-extra:hover{
+	border: 5px solid #ffd17e;
+	background: #21243d;
+}
+.statistics-section  .statistics-innner .statistics-extra h6{
+	font-size: 25px;
+	line-height: 40px;
+	font-weight: 700;
+	color: #fff;
+	font-family: Montserrat-Bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 25px;	
+}
+
+/* =============================================
+			  End statics Section                 
+================================================= */
+
+/* =============================================
+			  Start title Section                 
+================================================= */
+.title-ex-section{
+	width: 100%;
+	padding: 200px 0px;
+	background: url(../images/title-extra-bg.png) top no-repeat;
+	background-size: cover;
+}
+
+.title-ex-section .title-ex{
+	width: 100%;
+}
+
+.title-ex .title-ex-left{
+	width: 50%;
+	float: left;
+}
+
+.title-ex .title-ex-left h2{
+	font-size: 60px;
+	line-height: 70px;
+	font-weight: 700;
+	color: #21243d;
+	font-family: Montserrat-Bold;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+.title-ex .title-ex-left p{	
+	color: #21243d;
+	text-align: left;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-left: 40px;
+}
+
+.title-ex .title-ex-left .title-btn{
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: 400;
+	font-family: Montserrat-Bold;
+	color: #fff;
+	background: #21243d;
+	padding: 10px 40px;
+	border-radius: 10px;
+	margin-left: 40px;
+}
+
+.title-ex .title-ex-left .title-btn:hover{
+	background: #fff;
+	color:#21243d ;
+}
+
+.title-ex .title-ex-right{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.title-ex .title-ex-right img{
+	width: 50%;
+	margin-top: 20px;
+}
+
+/* =============================================
+			  End title Section                 
+================================================= */
+
+/* =============================================
+			  Start phoebe Section                 
+================================================= */
+.Phoebe-section{
+	width: 100%;
+	padding: 100px 0px;
+	background: url(../images/phoebe-bg.png) top no-repeat;
+	background-size: cover;
+}
+
+.Phoebe-section .Phoebe{
+	width: 100%;
+	text-align: center;
+}
+
+.Phoebe-section .Phoebe img{
+	width: 15%;
+	margin-top: 20px;
+}
+.Phoebe-section .Phoebe p{
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #fff;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.Phoebe-section .Phoebe h2{
+	font-size: 40px;
+	line-height: 70px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	font-family: Montserrat-Bold;
+	margin-top: 10px;
+}
+
+
+/* =============================================
+			  End phoebe Section                 
+================================================= */
+
+/* =============================================
+			  Start title-3rd-section Section                 
+================================================= */
+.title-3rd-section{
+	width: 100%;
+	padding: 150px 0px;
+	background: url(../images/title-3-bg.png) top no-repeat;
+	background-size: cover;
+}
+
+.title-3rd-section .title-3rd{
+	width: 100%;
+	text-align: center;
+}
+
+.title-3rd-section .title-3rd h2{
+	font-size: 60px;
+	line-height: 70px;
+	font-weight: 700;
+	color: #21243d;
+	text-align: center;
+	font-family: Montserrat-Bold;
+	margin-top: -50px;
+}
+
+.title-3rd-section .title-3rd p{
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #21243d;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.title-3rd-section .title-3rd .title-form{
+}
+
+.title-3rd-section .title-3rd .title-form input{
+	background: #fff;
+	border: none;
+	padding: 12px 250px 12px 20px;
+	color: #21243d;
+	border-radius: 25px;
+}
+
+.title-3rd-section .title-3rd .title-form input::placeholder{
+	color: #7f7f7f;
+	font-size: 15px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	border: none;
+}
+
+.title-3rd-section .title-3rd button{
+	color: #FFF;
+	background: #21243d;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: Montserrat-Bold;
+	border: none;
+	padding: 12px 40px 12px 40px;
+	text-align: right;
+	border-radius: 25px;
+	margin-top: 10px;
+	margin-left: -21%;
+}
+
+.title-3rd-section .title-3rd button:hover{
+	background: #fff;
+	color:#21243d ;
+}
+/* =============================================
+			  End title-3rd-section Section                 
+================================================= */
+
+/* =============================================
+			  Start Footer Section                 
+================================================= */
+.footer-section{
+	width: 100%;
+	background: #111111;
+}
+
+.footer-section .footer{
+	width: 100%;
+}
+
+
+/* ========footer-extra */
+
+.footer-extra{
+	width: 100%;
+}
+
+.footer-extra-1st{
+	width: 40%;
+	float: left;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.footer-extra-1st h6{
+	font-size: 30px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #fff;
+	margin-top: 30px;
+	text-align: left;
+	
+}
+
+.footer-extra-1st p{
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #fff;
+	margin-top: 30px;
+	text-align: left;
+}
+
+.social-icon{
+	margin-top: 20px;
+}
+.social-icon i{
+	height: 35px;
+    width: 35px;
+    line-height: 35px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #111111;
+    font-size: 20px;
+	margin-right: 10px;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid transparent;
+}
+.social-icon i:hover{
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+/* 2nd */
+
+.footer-extra-2nd{
+	width: 20%;
+	float: left;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.footer-extra-2nd h6{
+	font-size: 20px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #fff;
+	margin-top: 30px;
+	text-align: left;
+	margin-left: 15%;
+}
+.footer-extra-2nd ul{
+	text-align: left;
+	margin-top: 20px;
+}
+.footer-extra-2nd ul li a{
+	text-decoration: none;
+	text-transform: capitalize;
+	display: inline-block;
+	color: #fff;
+	font-size: 18px;
+	line-height: 27px;
+	font-family: Montserrat-Regular;
+	padding: 3px 15px 3px 3px;
+	margin-left: 15%;
+}
+
+.footer-extra-2nd ul li a:hover{
+	color:#111111;
+	background: #fff;
+	padding: 3px 15px 3px 3px;
+	border-radius: 10px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+}
+/* 3rd */
+
+.footer-extra-3rd{
+	width: 20%;
+	float: left;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.footer-extra-3rd h6{
+	font-size: 20px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #fff;
+	margin-top: 30px;
+	text-align: left;
+	margin-left: 15%;
+}
+.footer-extra-3rd ul{
+	text-align: left;
+	margin-top: 20px;
+}
+.footer-extra-3rd ul li a{
+	text-decoration: none;
+	text-transform: capitalize;
+	display: inline-block;
+	color: #fff;
+	font-size: 18px;
+	line-height: 27px;
+	font-family: Montserrat-Regular;
+	padding: 3px 15px 3px 3px;
+	margin-left: 15%;
+}
+
+.footer-extra-3rd ul li a:hover{
+	color:#111111;
+	background: #fff;
+	padding: 3px 15px 3px 3px;
+	border-radius: 10px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+}
+
+/* 4th */
+
+.footer-extra-4th{
+	width: 20%;
+	float: left;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.footer-extra-4th h6{
+	font-size: 20px;
+	font-weight: 400;
+	font-family: Montserrat-Regular;
+	color: #fff;
+	margin-top: 30px;
+	text-align: left;
+	margin-left: 15%;
+}
+.footer-extra-4th ul{
+	text-align: left;
+	margin-top: 20px;
+}
+.footer-extra-4th ul li a{
+	text-decoration: none;
+	text-transform: capitalize;
+	display: inline-block;
+	color: #fff;
+	font-size: 18px;
+	line-height: 27px;
+	font-family: Montserrat-Regular;
+	padding: 3px 15px 3px 3px;
+	margin-left: 15%;
+}
+
+.footer-extra-4th ul li a:hover{
+	color:#111111;
+	background: #fff;
+	padding: 3px 15px 3px 3px;
+	border-radius: 10px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+}
+/*=============================================
+			  End Footer Section                 
+================================================= */
+
